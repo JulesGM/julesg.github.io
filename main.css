@@ -8,15 +8,15 @@
 			word-wrap:break-word;
 			font-family: "Open Sans", sans-serif;
 			font-size: 9.5pt;
-			background-color: #bac7d6;
+			background-color: #b9c9d7;
 		}
 		div.WordSection1 {
 			max-width: 550.0pt;
 			width: 100%;
 			margin: 0 auto;
-			-moz-box-shadow: 0 0 20px #8a929c;
-			-webkit-box-shadow: 0 0 20px #8a929c;
-			box-shadow: 0 0 20px #8a929c;
+			-moz-box-shadow: 0 0 20px #5b82a1;
+			-webkit-box-shadow: 0 0 20px #5b82a1;
+			box-shadow: 0 0 20px #5b82a1;
 			border-radius: 10px;
             padding-right: 50px;
             padding-left: 50px;
@@ -28,18 +28,18 @@
         #MainContent{
 			margin-left: 40px;
 			margin-right: 60px;
-            margin-top: -30px;
+            margin-top: -45px;
 		}
 
         #HeaderLeftTD{
-            width:500px;
-            padding:60px 0cm 0px 0cm;
+            width:600px;
+            padding:50px 0cm 0px 0cm;
             height:100%;
 
         }
 
         #HeaderRightTD {
-            width:10.2pt;
+            width:190pt;
             padding:0 0cm 0cm 0cm;
             height:63.55pt;
             color:#595959;
@@ -58,9 +58,16 @@
             border-radius: 3pt;
             margin-bottom: 25px; 
             margin-top: 0px;
-            margin-left: 30px;
+            margin-left: 37px;
             height: 180px;
             width: 180px;
+        }
+
+        .SocialIcons{
+            width: 15px;
+            height: 15px;
+            text-align: left;
+            margin-right: 3px;
         }
 
         .ParagraphHeaderLeft {
@@ -81,13 +88,13 @@
 
 
 		h1 {
-			mso-style-link: "Heading 1 Char";
+			font-size: 13.0pt;
+            mso-style-link: "Heading 1 Char";
 			margin-top: 30.0pt;
 			margin-right: 0cm;
 			margin-bottom: 0cm;
 			margin-left: 0cm;
 			line-height: 17.25pt;
-			font-size: 16.0pt;
 			color: #303C4F;
 			font-weight: normal;
 		}
