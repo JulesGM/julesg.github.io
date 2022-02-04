@@ -15,7 +15,37 @@
 			word-wrap:break-word;
 			font-family: "Open Sans", sans-serif;
 			font-size: 10.5pt;
+			background-color: #bac7d6;
+		}
 
+		@page WordSection1 {
+			size: 612.0pt 792.0pt;
+			margin: 72.0pt 72.0pt 39.95pt 72.0pt;
+			
+		}
+
+		#MainContent{
+			margin-left: 40px;
+			margin-right: 60px;
+		}
+
+		div.WordSection1 {
+			page: WordSection1;
+			max-width: 612.0pt;
+			width: 100%;
+			margin: 0 auto;
+			padding: 0;
+			-moz-box-shadow: 0 0 20px #a6b0bd;
+			-webkit-box-shadow: 0 0 20px #a6b0bd;
+			box-shadow: 0 0 20px #a6b0bd;
+			border-radius: 10px;
+			padding : 60px 40px;
+			background-color: white;
+		}
+
+		a {
+			color: blue;
+			text-decoration: underline;
 		}
 
 
@@ -49,6 +79,10 @@
 			text-indent: -25pt;
 		}
 
+		#keywords{
+			display: None;
+		}
+
 		/****************************************************************************************/
 		/* Auto Generated. Maybe still hand modified. */
 		/****************************************************************************************/
@@ -70,18 +104,10 @@
 			font-weight: normal;
 		}
 
-		a:link,
-		span.MsoHyperlink {
-			color: blue;
-			text-decoration: underline;
-		}
-
-		
-
-		span.MsoIntenseEmphasis {
-			mso-style-name: "Intense Emphasis\,Url";
-			color: blue;
-			text-decoration: underline;
+		span.Heading1Char {
+			mso-style-name: "Heading 1 Char";
+			mso-style-link: "Heading 1";
+			color: #303C4F;
 		}
 
 		p.TableParagraph,
@@ -95,21 +121,7 @@
 			font-size: 10.5pt;
 		}
 
-		span.Heading1Char {
-			mso-style-name: "Heading 1 Char";
-			mso-style-link: "Heading 1";
-			color: #303C4F;
-		}
 
-		@page WordSection1 {
-			size: 612.0pt 792.0pt;
-			margin: 72.0pt 72.0pt 39.95pt 72.0pt;
-		}
-
-		div.WordSection1 {
-			page: WordSection1;
-			max-width: 612.0pt;
-		}
 
 		-->
 	</style>
@@ -130,14 +142,13 @@
 					<p class=TableParagraph style='margin-left:10.1pt;text-align:justify'><span>&nbsp;</span>
 					</p>
 					<p class=TableParagraph style='margin-left:10.1pt;text-align:justify'><span>Master’s
-							Student (Thesis) at <a href="https://mila.quebec/"><span
-									class=MsoIntenseEmphasis>Mila</span></a> and McGill in Montreal.</span></p>
+							Student (Thesis) at <a href="https://mila.quebec/">Mila</a> and McGill in Montreal.</span></p>
 					<p class=TableParagraph style='margin-left:10.1pt;text-align:justify'><span>Background in
 							mathematics and computer science. </span></p>
 					<p class=TableParagraph style='margin-left:10.1pt;text-align:justify'><span>Master’s
-							Supervisor: Pr Jackie Cheung, Mila / McGill, Cifar AI Chair. 
-							<a href="https://scholar.google.ca/citations?user=Um-wmYQAAAAJ&amp;hl=en">
-								<span class=MsoIntenseEmphasis>Scholar</span></a>. </span></p>
+							Sup.: Pr Jackie Cheung, Mila / McGill, Cifar AI Chair. 
+							<a href="https://www.cs.mcgill.ca/~jcheung/">
+								Link</a>. </span></p>
 					<p class=TableParagraph style='margin-left:10.1pt;text-align:justify'><span>GPA: 4.0 /
 							4.0</span></p>
 					<p class=TableParagraph style='margin-left:10.1pt;text-align:justify'><span>&nbsp;</span>
@@ -149,8 +160,8 @@
 							style='font-size:9.0pt;color:#595959'> 514.445.2394</span></p>
 					<p class=MsoNormal style='margin-left:19.85pt'><span
 							style='font-size:9.0pt;color:#595959'>LinkedIn: </span><span><a
-								href="https://goo.gl/L2aWDb"><span class=MsoIntenseEmphasis><span
-										style='font-size:10.0pt;color:#595959'>goo.gl/L2aWDb</span></span></a></span>
+								href="https://goo.gl/L2aWDb"><span
+										style='font-size:10.0pt;color:#595959'>goo.gl/L2aWDb</span></a></span>
 					</p>
 					<p class=TableParagraph style='margin-top:0cm;margin-right:13.9pt;margin-bottom:0cm;margin-left:19.85pt;margin-bottom:.0001pt'><spanstyle='font-size:9.0pt;color:#595959'>7083
 							Christophe-Colomb Avenue Montreal
@@ -163,164 +174,167 @@
 		<!-- Main content -->
 		<!--------------------------------------------------------------------------------------------------------->	
 		<!-- Experience -->
-		<h1 style='margin-top:0cm'><span>Professional Experience:</span></h1>
-		<div class="MsoListParagraph BigEntry" style='margin-top:10.0pt;'>
-			<spanstyle='font-size:11.0pt;line-height:120%;color:black'>
-				❖<span style='font:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-			</span>
-			<b><span>Google Brain with Noam Shazeer </span></b><span>– Researchinternship (2020), Mountain View office (remotely).</span>
-		</div>
-
-			<div class="MsoListParagraph SmallEntry">
-				-<span style='font:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span>
-				<span>Large scale language models, language generation and retrieval.</span>
+		<div id="MainContent">
+			<h1 style='margin-top:0cm'><span>Professional Experience:</span></h1>
+			<div class="MsoListParagraph BigEntry" style='margin-top:10.0pt;'>
+				<spanstyle='font-size:11.0pt;line-height:120%;color:black'>
+					❖<span style='font:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				</span>
+				<b><span>Google Brain with Noam Shazeer </span></b><span>– Researchinternship (2020), Mountain View office (remotely).</span>
 			</div>
 
-		<p class="MsoListParagraph BigEntry">
-				❖<span style='font:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-			</span><b><span>Google</span></b><span> <b>AI </b>– NLP branch, Research Internship (2019), Googleplex (Mountain-View): </span>
-		</p>
+				<div class="MsoListParagraph SmallEntry">
+					-<span style='font:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span>
+					<span>Large scale language models, language generation and retrieval.</span>
+				</div>
 
-			<p class="MsoListParagraph SmallEntry">
-				-<span style='font:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; </span><span>Builtan End-to-end Neural Conversational Model for Google Assistant
-					– Shopping</span>
+			<p class="MsoListParagraph BigEntry">
+					❖<span style='font:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				</span><b><span>Google</span></b><span> <b>AI </b>– NLP branch, Research Internship (2019), Googleplex (Mountain-View): </span>
 			</p>
 
-			<p class="MsoListParagraph VerySmallEntry" >
-				<span style='font-family:"Courier New"'>o<span style='font:7.0pt'>&nbsp;&nbsp;
-					</span></span><span>Imagined &amp; pitched the project, organized data collection,
-					Implemented
-					and iterated on the models. Got very promising results.</span>
-			</p>
-
-			<p class="MsoListParagraph SmallEntry">
-				-<span style='font:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; </span>Also
-					built a salient term representation learning system building on
-					BERT, for conversational shopping assistants.
-			</p>
-
-		<p class="MsoListParagraph BigEntry">
-			❖<span style='font:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				</span></span><b><spanstyle='color:black'>Huawei AI Research</span></b><span
-				style='color:black'> – NLP Team</span><spanstyle='color:black'>, Research Internship
-				(2018)</span><span>:</span></p>
-
-		<p class="MsoListParagraph SmallEntry">
-			<spans tyle='font-size:10.0pt;line-height:120%;'>-<span style='font:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;
-				</span></span><spanstyle='font-size:10.0pt;line-height:120%'>Worked
-				on improving Generative Adversarial models for Text. </span></p>
-
-		<p class="MsoListParagraph SmallEntry">
-			<span style='font-size:10.0pt;line-height:120%;'>-<span style='font:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;
-				</span></span><spanstyle='font-size:10.0pt;line-height:120%'>Worked on Unsupervised Translation and adversarial losses in the context of text generation.</span>
-		</p>
-
-		<p class="MsoListParagraph BigEntry">
-				❖<span style='font:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				</span></span><b><spanstyle='color:black'>Autodesk Research</span></b><span
-				style='color:#984806'>,</span><b><spanstyle='color:#984806'>
-				</span></b><span>Applied Research Internship (2017):</span></p>
-
-			<p class="MsoListParagraph SmallEntry">
-				<spanstyle='font-size:10.0pt;line-height:120%;font-family:"Open Sans",sans-serif'>
-					-<span style='font:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;
-					</span></span><spanstyle='font-size:10.0pt;line-height:120%'>Delivered
-					a solution: 3D Deep Learning Computer Vision: Semantic Segmentation in 3D Point
-					Cloud Scenes, exploiting the sparsity of 3D space. </span></p>
-
-		<h1 style='margin-top:12.0pt'><span>Prizes:</span></h1>
-
-		<p class="MsoListParagraph BigEntry">
-			❖<span style='font:7.0pt'>&nbsp;&nbsp;<span>
-				<a href="http://csgames.org/"><span class=MsoIntenseEmphasis>CSGames</span></a> 2015: <b>First place</b> in machine learning,</span>
-				<span style='font-size:10.0pt;'> </span><b><span>Second place</span></b><span> in classical AI and <b>Third place</b> in
-				parallelism. (One podium for each category I was in.)</span></p>
-
-		<p class="MsoListParagraph BigEntry">
-			❖<span style='font:7.0pt'>&nbsp;&nbsp;
-				</span>First place, Fighting Fake News with AI
-				competition by ElementAI. Made the mainstream <a
-					href="https://translate.google.com/translate?sl=fr&amp;tl=en&amp;js=y&amp;prev=_t&amp;hl=en&amp;ie=UTF-8&amp;u=https%3A%2F%2Fici.radio-canada.ca%2Fnouvelle%2F1045391%2Ffausses-nouvelles-element-ai-startupfest&amp;edit-text="><span
-						class=MsoIntenseEmphasis>press</span></a><span class=MsoIntenseEmphasis>.</span></span></p>
-
-		<h1><span>Publications:</span></h1>
-
-		<p class="MsoListParagraph BigEntry">
-			❖<span style='font:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				</span>“SALSA-TEXT: Self-Attentive Latent Space-Based Adversarial
-				Text Generation”, Canadian Conference on AI 2018, <i>Jules Gagnon-Marchand,
-					Hamed Sadeghi, Md. Akmal Haidar, Mehdi Rezagholizadeh.</i>
-			</p>
-
-		<p class="MsoListParagraph BigEntry">
-			❖<span style='font:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-			“Monitoring Neuromotricity Online: A Cloud Computing
-			Approach”, 17th Conf. of the International Graphonomics Society, 2015, by <i><span
-				style='font-size:9.0pt'>Olivier Lefebvre, Pau Riba, Jules
-				Gagnon-Marchand, Charles Fournier, Alicia Fornes, Josep Llados, Réjean
-				Plamondon</i>:
-		</p>
-
-				<p class="MsoNormal" style='margin-left:49.05pt'>Algorithms were
-						previously developed for extracting
-						lognormal parameters that describe handwriting movements. The study of the
-						evolution of these parameters over different periods of time allows the
-						monitoring changes in a user’s neuromotor skills. We explore cloud-based
-						approaches for this purpose.
+				<p class="MsoListParagraph SmallEntry">
+					-<span style='font:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; </span><span>Builtan End-to-end Neural Conversational Model for Google Assistant
+						– Shopping</span>
 				</p>
 
-		<h1><span>Talks Given:</span></h1>
+				<p class="MsoListParagraph VerySmallEntry" >
+					<span style='font-family:"Courier New"'>o<span style='font:7.0pt'>&nbsp;&nbsp;
+						</span></span><span>Imagined &amp; pitched the project, organized data collection,
+						Implemented
+						and iterated on the models. Got very promising results.</span>
+				</p>
 
-		<p class="MsoListParagraph BigEntry">
-			❖<span style='font:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-			@ Mila “A Review of Dense Passage Retrieval forOpen Domain NLP” (2021)
-		</p>
+				<p class="MsoListParagraph SmallEntry">
+					-<span style='font:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; </span>Also
+						built a salient term representation learning system building on
+						BERT, for conversational shopping assistants.
+				</p>
 
-		<p class="MsoListParagraph BigEntry">
-			❖<span style='font:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-			@ Mila “A Review of Non-MLE-Based TextGeneration Approaches” (2021)
-		</p>
+			<p class="MsoListParagraph BigEntry">
+				❖<span style='font:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					</span></span><b><spanstyle='color:black'>Huawei AI Research</span></b><span
+					style='color:black'> – NLP Team</span><spanstyle='color:black'>, Research Internship
+					(2018)</span><span>:</span></p>
 
-		<p class="MsoListParagraph BigEntry">
-			❖<span style='font:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-			@ Google AI: “Conversational Shopping Assistant” (2019) Slides 
-			<a href="https://docs.google.com/presentation/d/19psHx_HaYGe2RE-7RZ2p4bQ7Awk15xTDWGiJSkHpdV8/edit?usp=drivesdk">
-				<span class=MsoIntenseEmphasis>here</a>.</span>
-		</p>
+			<p class="MsoListParagraph SmallEntry">
+				<spans tyle='font-size:10.0pt;line-height:120%;'>-<span style='font:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;
+					</span></span><spanstyle='font-size:10.0pt;line-height:120%'>Worked
+					on improving Generative Adversarial models for Text. </span></p>
 
-		<p class="MsoListParagraph BigEntry">
-			❖<span style='font:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-			@ Google AI, for the ShopTalk group: “GANs, GAN Stability, Conditional GANs and Cycle GAN” (2019)
-		</p>
+			<p class="MsoListParagraph SmallEntry">
+				<span style='font-size:10.0pt;line-height:120%;'>-<span style='font:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;
+					</span></span><spanstyle='font-size:10.0pt;line-height:120%'>Worked on Unsupervised Translation and adversarial losses in the context of text generation.</span>
+			</p>
 
-		<p class="MsoListParagraph BigEntry">
-			❖<span style='font:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-			“Latent Space Based Text Generation Using Attention Models” (2018), Chosen to represent Huawei Research Montreal at the Natural Language Processing Workshop for Yoshua Bengio’s MILA Sponsors and Partners, 
-			<a href="http://www.crm.umontreal.ca/2018/Langue18/progNLP_en.html"><span class=MsoIntenseEmphasis>http://www.crm.umontreal.ca/2018/Langue18/progNLP_en.html</span></a>
-		</p>
+			<p class="MsoListParagraph BigEntry">
+					❖<span style='font:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					</span></span><b><spanstyle='color:black'>Autodesk Research</span></b><span
+					style='color:#984806'>,</span><b><spanstyle='color:#984806'>
+					</span></b><span>Applied Research Internship (2017):</span></p>
 
-		<p class="MsoListParagraph BigEntry" >❖<span style='font:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				</span></span><span>@ Huawei Research: “Spectral Normalization: The
-				State of the Art in GAN Stabilization” (2018)</span></p>
+				<p class="MsoListParagraph SmallEntry">
+					<spanstyle='font-size:10.0pt;line-height:120%;font-family:"Open Sans",sans-serif'>
+						-<span style='font:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;
+						</span></span><spanstyle='font-size:10.0pt;line-height:120%'>Delivered
+						a solution: 3D Deep Learning Computer Vision: Semantic Segmentation in 3D Point
+						Cloud Scenes, exploiting the sparsity of 3D space. </span></p>
 
-		<p class="MsoListParagraph BigEntry">
-			❖<span style='font:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-			<span>@ Autodesk Research: “Deep Learning for Semantic Segmentation of 3D Scenes” (2017) </span>
-		</p>
+			<h1 style='margin-top:12.0pt'><span>Prizes:</span></h1>
 
-		<p class=MsoNormal style='margin-top:3.0pt'><span style='color:white'>Related
-				Keywords:</span></p>
+			<p class="MsoListParagraph BigEntry">
+				❖<span style='font:7.0pt'>&nbsp;&nbsp;<span>
+					<a href="http://csgames.org/">CSGames</a> 2015: <b>First place</b> in machine learning,</span>
+					<span style='font-size:10.0pt;'> </span><b><span>Second place</span></b><span> in classical AI and <b>Third place</b> in
+					parallelism. (One podium for each category I was in.)</span></p>
 
-		<p class=MsoNormal style='margin-top:3.0pt;text-indent:36.0pt'><span style='color:white'>Neural
-				networks, NN, artificial intelligence,
-				AI, natural language processing, NLP, deep learning, DL, machine learning, ML,
-				data structures, question answering, open domain question answering, NLU,
-				natural language understanding, NLG, natural language generation, algorithmic
-				complexity, big-O, computational linguistics, generative adversarial networks,
-				convolutional neural networks, CNN, recurrent neural networks, RNN, long short
-				term memory, LSTM, sequence learning, time series, regression, medical imaging,
-				medical imagery, EEG, neural machine translation, NMT, seq2seq, sequence to
-				sequence, conversational models, research</span></p>
+			<p class="MsoListParagraph BigEntry">
+				❖<span style='font:7.0pt'>&nbsp;&nbsp;
+					</span>First place, Fighting Fake News with AI
+					competition by ElementAI. Made the mainstream <a
+						href="https://translate.google.com/translate?sl=fr&amp;tl=en&amp;js=y&amp;prev=_t&amp;hl=en&amp;ie=UTF-8&amp;u=https%3A%2F%2Fici.radio-canada.ca%2Fnouvelle%2F1045391%2Ffausses-nouvelles-element-ai-startupfest&amp;edit-text=">press</a>.</span></p>
+
+			<h1><span>Publications:</span></h1>
+
+			<p class="MsoListParagraph BigEntry">
+				❖<span style='font:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					</span>“SALSA-TEXT: Self-Attentive Latent Space-Based Adversarial
+					Text Generation”, Canadian Conference on AI 2018, <i>Jules Gagnon-Marchand,
+						Hamed Sadeghi, Md. Akmal Haidar, Mehdi Rezagholizadeh.</i>
+				</p>
+
+			<p class="MsoListParagraph BigEntry">
+				❖<span style='font:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				“Monitoring Neuromotricity Online: A Cloud Computing
+				Approach”, 17th Conf. of the International Graphonomics Society, 2015, by <i><span
+					style='font-size:9.0pt'>Olivier Lefebvre, Pau Riba, Jules
+					Gagnon-Marchand, Charles Fournier, Alicia Fornes, Josep Llados, Réjean
+					Plamondon</i>:
+			</p>
+
+					<p class="MsoNormal" style='margin-left:49.05pt'>Algorithms were
+							previously developed for extracting
+							lognormal parameters that describe handwriting movements. The study of the
+							evolution of these parameters over different periods of time allows the
+							monitoring changes in a user’s neuromotor skills. We explore cloud-based
+							approaches for this purpose.
+					</p>
+
+			<h1><span>Talks Given:</span></h1>
+
+			<p class="MsoListParagraph BigEntry">
+				❖<span style='font:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				@ Mila “A Review of Dense Passage Retrieval forOpen Domain NLP” (2021)
+			</p>
+
+			<p class="MsoListParagraph BigEntry">
+				❖<span style='font:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				@ Mila “A Review of Non-MLE-Based TextGeneration Approaches” (2021)
+			</p>
+
+			<p class="MsoListParagraph BigEntry">
+				❖<span style='font:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				@ Google AI: “Conversational Shopping Assistant” (2019) Slides 
+				<a href="https://docs.google.com/presentation/d/19psHx_HaYGe2RE-7RZ2p4bQ7Awk15xTDWGiJSkHpdV8/edit?usp=drivesdk">
+					here</a>.
+			</p>
+
+			<p class="MsoListParagraph BigEntry">
+				❖<span style='font:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				@ Google AI, for the ShopTalk group: “GANs, GAN Stability, Conditional GANs and Cycle GAN” (2019)
+			</p>
+
+			<p class="MsoListParagraph BigEntry">
+				❖<span style='font:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				“Latent Space Based Text Generation Using Attention Models” (2018), Chosen to represent Huawei Research Montreal at the Natural Language Processing Workshop for Yoshua Bengio’s MILA Sponsors and Partners, 
+				<a href="http://www.crm.umontreal.ca/2018/Langue18/progNLP_en.html">http://www.crm.umontreal.ca/2018/Langue18/progNLP_en.html</a>
+			</p>
+
+			<p class="MsoListParagraph BigEntry" >❖<span style='font:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					</span></span><span>@ Huawei Research: “Spectral Normalization: The
+					State of the Art in GAN Stabilization” (2018)</span></p>
+
+			<p class="MsoListParagraph BigEntry">
+				❖<span style='font:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				<span>@ Autodesk Research: “Deep Learning for Semantic Segmentation of 3D Scenes” (2017) </span>
+			</p>
+		</div>
+		<div id="Keywords">
+			<p class=MsoNormal style='margin-top:3.0pt'><span style='color:white'>Related
+					Keywords:</span></p>
+
+			<p class=MsoNormal style='margin-top:3.0pt;text-indent:36.0pt'><span style='color:white'>Neural
+					networks, NN, artificial intelligence,
+					AI, natural language processing, NLP, deep learning, DL, machine learning, ML,
+					data structures, question answering, open domain question answering, NLU,
+					natural language understanding, NLG, natural language generation, algorithmic
+					complexity, big-O, computational linguistics, generative adversarial networks,
+					convolutional neural networks, CNN, recurrent neural networks, RNN, long short
+					term memory, LSTM, sequence learning, time series, regression, medical imaging,
+					medical imagery, EEG, neural machine translation, NMT, seq2seq, sequence to
+					sequence, conversational models, research</span></p>
+
+		</div>
 
 	</div>
 
