@@ -1,160 +1,187 @@
 /* Font Definitions */
-		@import url('https://fonts.googleapis.com/css?family=Open+Sans:400');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400');
 
-		/* Style Definitions */
-		body { 
-			max-width: max-content;
-			margin: 20px auto;
-			word-wrap:break-word;
-			font-family: "Open Sans", sans-serif;
-			font-size: 9.5pt;
-			background-color: #b9c9d7;
-		}
-		div.WordSection1 {
-			max-width: 550.0pt;
-			width: 100%;
-			margin: 0 auto;
-			-moz-box-shadow: 0 0 20px #5b82a1;
-			-webkit-box-shadow: 0 0 20px #5b82a1;
-			box-shadow: 0 0 20px #5b82a1;
-			border-radius: 10px;
-            padding-right: 50px;
-            padding-left: 50px;
-            padding-top: 50px;
-            padding-bottom: 75px;
-			background-color: white;
-		}
+/* Style Definitions */
+body { 
+	max-width: max-content;
+	margin: 20px auto;
+	word-wrap:break-word;
+	font-family: "Open Sans", sans-serif;
+	font-size: 9.5pt;
+	background-color: #b9c9d7;
+}
 
-        #MainContent{
-			margin-left: 40px;
-			margin-right: 60px;
-            margin-top: -45px;
-		}
-
-        #HeaderLeftTD{
-            width:600px;
-            padding:50px 0cm 0px 0cm;
-            height:100%;
-
-        }
-
-        #HeaderRightTD {
-            width:190pt;
-            padding:0 0cm 0cm 0cm;
-            height:63.55pt;
-            color:#595959;
-        }
-        
-        #title{
-            font-size: 18.0pt; 
-            color:#BDBDBD;
-        }
-        #Name{
-            font-size:28.0pt;
-        }
-        
-
-        #face {
-            border-radius: 3pt;
-            margin-bottom: 25px; 
-            margin-top: 0px;
-            margin-left: 37px;
-            height: 180px;
-            width: 180px;
-        }
-
-        .SocialIcons{
-            width: 15px;
-            height: 15px;
-            text-align: left;
-            margin-right: 3px;
-        }
-
-        .ParagraphHeaderLeft {
-            margin-left:0;
-            text-align:left
-        }
-
-        .ParagraphHeaderRight {
-            margin-left:20px;
-        }
+div.all {
+	max-width: 550.0pt;
+	width: 100%;
+	margin: 0 auto;
+	-moz-box-shadow: 0 0 20px #5b82a1;
+	-webkit-box-shadow: 0 0 20px #5b82a1;
+	box-shadow: 0 0 20px #5b82a1;
+	border-radius: 10px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 50px;
+	padding-bottom: 75px;
+	background-color: white;
+}
 
 
+#MainContent{
+	margin-left: 40px;
+	margin-right: 60px;
+	/* margin-top: -45px; */
+}
 
-		a {
-			color: blue;
-			text-decoration: underline;
-		}
+#HeaderBox{
+	width: 100%;
+	clear: both;
+	vertical-align: top;
+	text-align: center;
+}
+
+#HeaderLeftTD{
+	max-width:480px;
+	min-width:480px;
+	padding:50px 0cm 0px 0cm;
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+#HeaderRightTD {
+	max-width:300px;
+	padding:0 0cm 0cm 0cm;
+	color:#595959;
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+}
+
+#title{
+	font-size: 18.0pt; 
+	color:#BDBDBD;
+}
+
+#Name{
+	font-size:28.0pt;
+}
+
+#face {
+	border-radius: 3pt;
+	margin-bottom: 25px; 
+	margin-top: 0px;
+	margin-left: 37px;
+	height: 180px;
+	width: 180px;
+}
+
+.SocialIcons{
+	width: 15px;
+	height: 15px;
+	text-align: left;
+	margin-right: 3px;
+}
+
+.ParagraphHeaderLeft {
+	margin-left:0;
+	text-align:left
+}
+
+.ParagraphHeaderRight {
+	margin-left:20px;
+}
+
+a {
+	color: blue;
+	text-decoration: underline;
+}
 
 
-		h1 {
-			font-size: 13.0pt;
-            mso-style-link: "Heading 1 Char";
-			margin-top: 30.0pt;
-			margin-right: 0cm;
-			margin-bottom: 0cm;
-			margin-left: 0cm;
-			line-height: 17.25pt;
-			color: #303C4F;
-			font-weight: normal;
-		}
+h1 {
+	font-size: 15.0pt;
+	mso-style-link: "Heading 1 Char";
+	margin-top: 30.0pt;
+	margin-right: 0cm;
+	margin-bottom: 0cm;
+	margin-left: 0cm;
+	line-height: 17.25pt;
+	color: #303C4F;
+	font-weight: normal;
+}
 
-		p.MsoListParagraph,
-		li.MsoListParagraph,
-		div.MsoListParagraph {
-			margin-right: 0cm;
+p.MsoListParagraph,
+li.MsoListParagraph,
+div.MsoListParagraph {
+	margin-right: 0cm;
 
-		}
+}
 
-		.BigEntry {
-			margin-top: 8.0pt;
-			margin-bottom: 6.0pt;
-			margin-right:0cm;
-			line-height: 150%;
-			margin-left: 45pt;
-			text-indent: -26pt;
-		}
-		.SmallEntry {
-			margin-top: 0pt;
-			display: block;
-			line-height: 150%;
-			margin-bottom:0cm;
-			margin-left: 80pt;
-			text-indent: -17pt;
+.BigEntry {
+	margin-top: 8.0pt;
+	margin-bottom: 6.0pt;
+	margin-right:0cm;
+	line-height: 150%;
+	margin-left: 45pt;
+	text-indent: -26pt;
+}
+.SmallEntry {
+	margin-top: 0pt;
+	display: block;
+	line-height: 150%;
+	margin-bottom:0cm;
+	margin-left: 80pt;
+	text-indent: -17pt;
 
-		}
-		p.VerySmallEntry {
-			margin-left: 130pt;
-			text-indent: -25pt;
-		}
+}
+p.VerySmallEntry {
+	margin-left: 130pt;
+	text-indent: -25pt;
+}
 
-		#keywords{
-			display: None;
-		}
+#keywords{
+	display: None;
+}
 
-		/****************************************************************************************/
-		/* Auto Generated. Maybe still hand modified. */
-		/****************************************************************************************/
-		p.MsoNormal,
-		li.MsoNormal,
-		div.MsoNormal {
-			margin: 0cm;
-		}
+@media only screen and (max-width: 722px) {
+	body{
+		margin-right:0;
+		margin-left:0;
+	}
+	div.all{
+		width: 100%;
+		/* border-radius: 0; */
+		padding: 0;
+	}
+	#HeaderRightTD {
+		margin-top: 30px;
+		margin-left: -50px;
+	}
+	#face {
+		height: 200px;
+		width: 200px;
+	}
+	
+}
 
 
-		span.Heading1Char {
-			mso-style-name: "Heading 1 Char";
-			mso-style-link: "Heading 1";
-			color: #303C4F;
-		}
+/****************************************************************************************/
+/* Auto Generated. Maybe still hand modified. */
+/****************************************************************************************/
 
-		p.TableParagraph,
-		li.TableParagraph,
-		div.TableParagraph {
-			mso-style-name: "Table Paragraph";
-			margin-top: 0cm;
-			margin-right: 0cm;
-			margin-bottom: 0cm;
-			margin-left: 10.0pt;
-			font-size: 9.5pt;
-		}
+.TableNormal1 tr{
+	height:63.55pt;
+}
+
+
+p.TableParagraph,
+li.TableParagraph,
+div.TableParagraph {
+	mso-style-name: "Table Paragraph";
+	margin-top: 0cm;
+	margin-right: 0cm;
+	margin-bottom: 0cm;
+	margin-left: 10.0pt;
+	font-size: 9.5pt;
+}
+
