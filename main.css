@@ -15,13 +15,13 @@ div.all {
 	max-width: 550.0pt;
 	width: 100%;
 	margin: 0 auto;
-	-moz-box-shadow: 0 0 20px #5b82a1;
-	-webkit-box-shadow: 0 0 20px #5b82a1;
-	box-shadow: 0 0 20px #5b82a1;
-	border-radius: 10px;
+	-moz-box-shadow: 0 0 20px #8ba6c0;
+	-webkit-box-shadow: 0 0 20px #8ba6c0;
+	box-shadow: 0 0 20px #8ba6c0;
+	border-radius: 7px;
 	padding-right: 50px;
 	padding-left: 50px;
-	padding-top: 50px;
+	padding-top: 45px;
 	padding-bottom: 75px;
 	background-color: white;
 }
@@ -30,50 +30,55 @@ div.all {
 #MainContent{
 	margin-left: 40px;
 	margin-right: 60px;
-	/* margin-top: -45px; */
 }
 
 #HeaderBox{
 	width: 100%;
 	clear: both;
-	vertical-align: top;
 	text-align: center;
+	display: flex;
+	flex-wrap: wrap-reverse;
+	justify-content: space-around;
+	vertical-align: center;
+	align-content: center;
+	padding-bottom: 0;
+	/* border-bottom: 1px solid #8ba6c0; */
 }
 
 #HeaderLeftTD{
-	max-width:480px;
-	min-width:480px;
-	padding:50px 0cm 0px 0cm;
-	display: inline-block;
-	vertical-align: top;
-
-}
-
-#HeaderRightTD {
-	max-width:300px;
-	padding:0 0cm 0cm 0cm;
-	color:#595959;
-	display: inline-block;
-	vertical-align: top;
+	padding: 0px 0px 0px 0px;
+	margin-top: 30px;
+	height: min-content;
+	min-width: 400px;
 	text-align: left;
 }
 
-#title{
-	font-size: 18.0pt; 
-	color:#BDBDBD;
+
+#HeaderRightTD {
+	padding:0 0cm 0cm 0cm;
+	color:#595959;
+	text-align: left;
 }
 
+
 #Name{
-	font-size:28.0pt;
+	font-smooth: 2em;
+	-webkit-font-smoothing:2em;
+	-moz-osx-font-smoothing:2em;
+	font-size:33.0pt;
+}
+
+#face_container {
+	/* border: #303C4F solid 1px; */
+	text-align: center;
 }
 
 #face {
-	border-radius: 3pt;
-	margin-bottom: 25px; 
+	border-radius: 2pt;
+	margin-bottom: 15px; 
 	margin-top: 0px;
-	margin-left: 37px;
-	height: 180px;
-	width: 180px;
+	/* margin-left: 20px; */
+	width: 120px;
 }
 
 .SocialIcons{
@@ -143,26 +148,34 @@ p.VerySmallEntry {
 	display: None;
 }
 
-@media only screen and (max-width: 722px) {
+
+
+
+
+@media only screen and (max-width: 621px) {
 	body{
 		margin-right:0;
 		margin-left:0;
 	}
 	div.all{
 		width: 100%;
-		/* border-radius: 0; */
-		padding: 0;
+		padding-left:0;
+		padding-right:0;
 	}
-	#HeaderRightTD {
-		margin-top: 30px;
-		margin-left: -50px;
+	#name{
+		font-size: 28.0pt;
 	}
-	#face {
-		height: 200px;
-		width: 200px;
+} 
+
+/** When vertical display starts to break, we fit the title to the minimum width**/
+@media only screen and (max-width: 480px) {
+	#Name
+	{
+		font-size: 25pt;
 	}
-	
+
 }
+
 
 
 /****************************************************************************************/
