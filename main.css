@@ -1,5 +1,9 @@
 /* Font Definitions */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:500');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800');
 
 /* Style Definitions */
 body { 
@@ -26,8 +30,8 @@ div.all {
 	background-color: white;
 }
 
-#JobStart{
-	font-weight: 900;
+.JobStart{
+	font-weight:500;
 }
 
 
