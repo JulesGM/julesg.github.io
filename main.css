@@ -26,8 +26,13 @@ div.all {
 	background-color: white;
 }
 
+#JobStart{
+	font-weight: 900;
+}
+
 
 #MainContent{
+	margin-top: -85px;
 	margin-left: 40px;
 	margin-right: 60px;
 }
@@ -42,13 +47,12 @@ div.all {
 	vertical-align: center;
 	align-content: center;
 	padding-bottom: 0;
-	/* border-bottom: 1px solid #8ba6c0; */
 }
 
 #HeaderLeftTD{
 	padding: 0px 0px 0px 0px;
-	margin-top: 30px;
-	height: min-content;
+	margin-top: 20px;
+	/* height: min-content; */
 	min-width: 400px;
 	text-align: left;
 }
@@ -105,7 +109,6 @@ a {
 
 h1 {
 	font-size: 15.0pt;
-	mso-style-link: "Heading 1 Char";
 	margin-top: 30.0pt;
 	margin-right: 0cm;
 	margin-bottom: 0cm;
@@ -115,17 +118,25 @@ h1 {
 	font-weight: normal;
 }
 
-p.MsoListParagraph,
-li.MsoListParagraph,
-div.MsoListParagraph {
+p.ListParagraph,
+li.ListParagraph,
+div.ListParagraph {
 	margin-right: 0cm;
 
 }
 
+.BigEntryFlat {
+	margin-top: 8.0pt;
+	margin-bottom: 6.0pt;
+	margin-right: 0cm;
+	line-height: 200%;
+	margin-left: 19pt;
+	/* text-indent: -26pt; */
+}
 .BigEntry {
 	margin-top: 8.0pt;
 	margin-bottom: 6.0pt;
-	margin-right:0cm;
+	margin-right: 0cm;
 	line-height: 150%;
 	margin-left: 45pt;
 	text-indent: -26pt;
@@ -139,7 +150,7 @@ div.MsoListParagraph {
 	text-indent: -17pt;
 
 }
-p.VerySmallEntry {
+.VerySmallEntry {
 	margin-left: 130pt;
 	text-indent: -25pt;
 }
@@ -147,9 +158,6 @@ p.VerySmallEntry {
 #keywords{
 	display: None;
 }
-
-
-
 
 
 @media only screen and (max-width: 621px) {
@@ -190,7 +198,6 @@ p.VerySmallEntry {
 p.TableParagraph,
 li.TableParagraph,
 div.TableParagraph {
-	mso-style-name: "Table Paragraph";
 	margin-top: 0cm;
 	margin-right: 0cm;
 	margin-bottom: 0cm;
