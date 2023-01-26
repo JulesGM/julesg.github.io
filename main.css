@@ -36,7 +36,7 @@ div.all {
 
 
 #MainContent{
-	margin-top: -85px;
+	margin-top: -10px;
 	margin-left: 40px;
 	margin-right: 60px;
 }
@@ -55,7 +55,7 @@ div.all {
 
 #HeaderLeftTD{
 	padding: 0px 0px 0px 0px;
-	margin-top: 20px;
+	margin-top: 40px;
 	/* height: min-content; */
 	min-width: 400px;
 	text-align: left;
